@@ -1,0 +1,185 @@
+.wrapper {
+    background-color: #4780c1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main_title {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 43px;
+}
+
+.content_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_text {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.social_networks_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 55%;
+    grid-gap: 15px;
+    margin-top: 25px;
+}
+
+.facebook {
+    width: 190px;
+    height: 50px;
+    background-color: #4267B2;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github {
+    width: 190px;
+    height: 50px;
+    background-color: #404041;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    justify-content: center;
+}
+
+.google {
+    width: 190px;
+    height: 50px;
+    background-color: #dd3c48;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_networks_text {
+    color: white;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+
+.hr {
+    width: 330px;
+    margin: 40px auto;
+}
+
+.dividing_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 15px;
+    color: #4267B2;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.input_block {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+}
+
+.input {
+    width: 90%;
+    height: 45px;
+    border: none;
+    outline: none;
+}
+
+.div_input {
+    background: url("C:\Users\Komp\Desktop\solid-wiki\public\images\register/Name.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    width: 100%;
+    height: 55px;
+    background-color: #9ab529;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.footer_text {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.dividing_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_hr,
+.second_hr {
+    border-bottom: 1px solid rgb(194, 194, 194);
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    .social_networks_container {
+        justify-content: center;
+    }
+}
+
+.input_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.input_icon {
+    height: 25px;
+    width: 25px;
+
+}
+
+.img_container {
+
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}

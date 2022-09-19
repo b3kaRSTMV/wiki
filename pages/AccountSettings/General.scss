@@ -1,0 +1,82 @@
+.general{
+    width: 50%;
+    margin: 0 auto;
+    height: 200vh;
+}
+.general h1{
+    font-size: 40px;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.nav a{
+    text-decoration: none;
+    color: blue;
+}
+.company_name{
+margin-top: 20px;
+}
+
+.company_name p{
+    width: 60%;
+}
+.info{
+    color:grey;
+}
+.footer_block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footer_block button {
+    color:white;
+    background-color: green;
+    border: none;
+    border-radius:5px;
+    padding: 10px;
+    width: 70px;
+}
+.company_logo{
+    margin-top: 20px;
+}
+.company_logo button{
+    background-color: green;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 70px;
+    margin-bottom: 20px;
+}
+.upload_button{
+   display: flex;
+   justify-content: space-between;
+}
+
+.Google_apps{
+    margin-top: 20px;
+}
+.Google_apps p{
+    color:gray;
+}
+
+.FileStoreageLocation{
+    margin-top: 20px;
+}
+.FileStoreageLocation select{
+    width: 300px;
+}
+
+.DeleteAcc{
+    margin-top: 40px;
+}
+.DeleteAcc h4, p{
+    color:gray;
+}
+.DeleteAcc p{
+    width: 60%;
+}

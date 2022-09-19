@@ -1,0 +1,108 @@
+@import "../../App.css";
+
+.footer{
+    padding: 30px 70px 60px;
+    background-color: #404041;
+        .footer__items{
+            display: flex;
+	        justify-content: space-between;
+            align-items: center;
+            .footer__items_links{
+                display: flex;
+	            justify-content: space-between;
+                width: 35%;
+                
+                div{
+                    h4{
+                        font-size: 18px;
+	                    color: #ffffff;
+	                    text-transform: capitalize;
+	                    margin-bottom: 35px;
+	                    font-weight: 500;
+	                    position: relative;
+                    }     
+                            a{
+                                font-size: 16px;
+	                            text-transform: capitalize;
+	                            color: #ffffff;
+	                            text-decoration: none;
+	                            font-weight: 500;
+	                            color: #c5dae6;
+	                            display: block;
+	                            margin-top: 10px;
+                                &:hover{
+                                    color: red;
+                            }
+                            } 
+                }
+            }
+            .footer__logo{
+                width: 40%;
+	            display: flex;
+	            flex-direction: column;
+	            align-items: center;
+                justify-content: start;
+
+                img{
+                    width: 50%;
+                    margin-left: 5%;
+                    margin-bottom: 2%;
+                }
+                p{
+                    color: #c5dae6;
+
+                    span{
+                        color: white;
+                    }
+                }
+            }
+        }
+}
+@media(max-width: 1024px){
+    .footer__items_links{
+		flex-wrap: wrap;
+        padding-bottom: 20px;
+	}
+    .footer__logo{
+        
+        img{
+            margin-right: 15% !important;
+            margin-bottom: 10px;
+        }
+    }  
+}
+@media(max-width: 768px){
+  .footer__items{
+    width: 100%;
+    flex-direction: column;
+    }
+	.footer__items_links{
+       flex-wrap: wrap;
+	}
+	.footer__logo{
+		margin-top: 40px;
+        img{
+            margin-right: 45% !important;
+            margin-bottom: 2%;
+        }
+    }    
+}
+@media(max-width: 425px){
+    .footer__logo{
+        img{
+            width: 100% !important;  
+            margin-right: 6% !important;
+            margin-bottom: 4% !important;
+        }
+    }
+    
+}
+@media(max-width: 320px){
+    .footer__logo{
+        img{
+            width: 100% !important;  
+            margin-right: 6% !important;
+        }
+    }
+    
+}

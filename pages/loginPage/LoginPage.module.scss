@@ -1,0 +1,182 @@
+.login__forms{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .error{
+        color:red;
+    }
+
+    h2{
+        color: #2f2f2f;
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 40px 0;
+    }
+    .login__links {
+        margin: 20px 0;
+        display: flex;
+        img{
+            width: 20px;
+            margin-right: 5px;
+        }
+       a{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 220px;
+        padding: 7px 0;
+        font-size: 14px;
+        margin-left: 5px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-weight: 900;
+       
+       }
+       .link__facebook{
+        margin-left: 0;
+        background-color:  #4167b2;
+        &:hover{
+            background-color:#32518f;
+            transition: background-color 1000ms ease-in-out;
+        }
+       }
+       .link__github{
+        background: #404041;
+        &:hover{
+            background-color: #39393b;
+            transition: background-color .3s ease-in-out;
+        }
+       }
+       .link__google{
+        background: #ef4b50;
+        &:hover{
+            background-color: #ec373a;
+            transition: background-color .3s ease-in-out;
+        }
+       }
+    }
+    .line{
+        position: relative;
+        margin: 20px auto 0;
+        width: 377px;
+        border-bottom: 1px solid #4780c127;
+        span{
+            position: absolute;
+            border: 1px solid #4780c127;
+            border-radius: 50%;
+            display: inline-block;
+            color: #4780c1;
+            background-color: #fff;
+            font-size: 14px !important;
+            margin: 0 auto;
+            padding: 8px 6px;
+            font-size: 16px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .control{
+        margin: 20px 0;
+        label{
+            display: block; 
+            margin-bottom: 10px; 
+            font-weight: 900; 
+            text-transform:capitalize;
+        }
+        .control__input{
+            padding: 14px 10px 10px 10px;
+            border: 1px solid #E4E2E2;
+            outline: none;
+            width: 500px;
+        }
+    }
+    .login__submit{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+        div{
+            cursor: pointer;
+            span{
+                margin-left: 5px;
+                color: #2f2f2f;
+                font-weight: 300;
+                font-size: 18px;
+            }
+        }
+        .login__text{
+            text-transform:capitalize;
+        }
+
+        a{
+            text-decoration: none;
+            line-height: 25px;
+            font-size: 14px;
+            color: #337ab7;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+       
+    }
+    .control__sign{
+        border: none;
+        background: #acc92c;
+        border-radius: 2px;
+        font-size: 16px;
+        padding: 14px 20px 10px 20px;
+        color: #fff;
+        cursor: pointer;
+        text-transform:uppercase;
+        text-decoration: none;
+        &:hover{
+        background: #9ab529;
+        transition: background-color .3s ease-in-out;
+        }
+    }
+    
+}
+@media(max-width: 768px){
+    .login__links{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        a{
+            margin: 10px 0;
+        }
+        .control{
+            .control__input{
+                width: 470px;
+            }
+        }
+    }
+  }
+  @media(max-width: 425px){
+    .login__links{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        a{
+            width: 100%;
+            margin-left: 0 !important;
+        }
+    }
+    .control{
+        .control__input{
+            width: 340px !important;
+        }
+    }
+      
+  }
+  @media(max-width: 320px){
+    .control{
+        .control__input{
+            width: 300px !important;
+           
+        }
+    } 
+  }

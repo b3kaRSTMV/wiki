@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 996px;
+  }
+}
+
+
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 780px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media(max-width: 512px) {
+  .container {
+    max-width: none;
+  }
+}
